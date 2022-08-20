@@ -31,10 +31,6 @@ body {
 .search-container {
   margin-bottom: 18px;
 }
-/* 
-tr {
-  text-align: center;
-} */
 
 .table {
   color: #ffff;
@@ -61,4 +57,29 @@ tr th {
 .bold {
   font-family: "Noto Sans", sans-serif;
   font-weight: 700;
+}
+
+/* Responsive Updated Code */
+@media (max-width: 530px) {
+  .market,
+  .rank {
+    display: none;
+  }
+  .header-logo .logo {
+    font-size: 22px;
+  }
+
+  .header-logo .logo-desc {
+    font-size: 12px;
+  }
+  .crypto-logo {
+    width: 22px;
+  }
+
+  .table {
+    font-size: 11px;
+  }
+  .header-logo {
+    margin-top: 30px;
+  }
 }

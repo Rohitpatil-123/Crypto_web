@@ -12,9 +12,9 @@ fetch(
     objectData.map((values) => {
       tableData += `
         <tr>
-        <td>${values.rank}</td>
-        <td><img class="crypto-logo" src="${values.logo_url}"/>&nbsp;&nbsp;${values.name}</td>
-        <td>${values.market_cap}</td>
+        <td class="rank">${values.rank}</td>
+        <td><img class="crypto-logo" src="${values.logo_url}"/> ${values.name}</td>
+        <td class="market">${values.market_cap}</td>
         <td>${values.price}</td>
         
       </tr>
